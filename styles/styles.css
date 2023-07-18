@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+:root {
+    --primary-color: #9376E0;
+}
+
 /* shared styles */
 .btn-secondary {
     border: 2px solid #9376e0;
@@ -173,4 +177,67 @@
 .card-container {
     display: flex;
     justify-content: space-between;
+}
+
+/* discount section */
+.discount {
+    background-color: #9376E0;
+    height: fit-content;
+}
+
+.discount-container {
+    max-width: 1400px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.discount-container .item {
+    width: 50%;
+}
+
+.discount-img-container {
+    border: 1px solid maroon;
+    text-align: center;
+    position: relative;
+}
+
+.discount-img {
+    width: 70%;
+}
+
+.discount-30 {
+    background-color: #e6e8eb;
+    display: inline-block;
+    padding: 20px 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+}
+
+.discount-content {
+    border: 1px solid skyblue;
+}
+
+.discount-content h2 {
+    font-weight: 600;
+}
+
+.discount-content p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: 300;
+}
+
+.buy-now-btn {
+    border: 1px solid white;
+    background: transparent;
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 8px 15px;
+    border-radius: 5px;
 }

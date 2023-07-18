@@ -57,4 +57,11 @@
     .card img {
         width: 80%;
     }
+    /* discount */
+    .discount-container {
+        flex-direction: column;
+    } 
+    .discount-container > .item {
+        width: 100%;
+    }
 }
