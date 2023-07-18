@@ -274,3 +274,24 @@
 .card-container img {
     width: 20%;
 }
+
+/* footer */
+.footer {
+    background-color: #9376E0;
+    padding: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+}

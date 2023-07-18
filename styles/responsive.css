@@ -74,4 +74,10 @@
     .discount-container>.item {
         width: 100%;
     }
+
+    /* customer review */
+    .card-container {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
 }
