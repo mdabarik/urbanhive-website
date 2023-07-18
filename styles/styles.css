@@ -8,6 +8,18 @@
     padding: 0;
 }
 
+/* shared styles */
+.btn-secondary {
+    border: 2px solid #9376e0;
+    padding: 12px 25px;
+    border-radius: 4px;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(247, 247, 247, 0.764);
+    cursor: pointer;
+}
+
 /* navigation styles */
 .nav-container {
     background-color: #9176e0;
@@ -55,6 +67,14 @@
     font-size: 20px;
 }
 
+.nav .nav-link li .login-btn {
+    background-color: #e893cf;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+}
+
 /* banner style */
 .banner {
     background-color: #e6e8eb;
@@ -97,5 +117,25 @@
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     margin: 10px auto;
-
 }
+
+.banner-content button {
+    margin: 5px;
+}
+
+.social-link {
+    margin: 15px auto;
+}
+
+.social-link i {
+    font-size: 30px;
+}
+
+.social-link i:hover {
+    cursor: pointer;
+}
+
+.social-link a {
+    margin: 10px;
+}
+
