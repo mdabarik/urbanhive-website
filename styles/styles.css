@@ -78,12 +78,12 @@
 /* banner style */
 .banner {
     background-color: #e6e8eb;
-    width: 1400px;
+    max-width: 1400px;
     margin: 30px auto;
     border-radius: 10px;
 }
 .banner-container {
-    height: 50vh;
+    height: fit-content;
     display: flex;
     align-items: center;
     text-align: center;
@@ -139,3 +139,38 @@
     margin: 10px;
 }
 
+/* all products section */
+.all-products {
+    max-width: 1440px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.all-products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+.product-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background-color: rgba(112, 128, 144, 0.253);
+    box-shadow: 2px 2px 4px black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
