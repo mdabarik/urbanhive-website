@@ -86,6 +86,7 @@
     margin: 30px auto;
     border-radius: 10px;
 }
+
 .banner-container {
     height: fit-content;
     display: flex;
@@ -199,7 +200,6 @@
 }
 
 .discount-img-container {
-    border: 1px solid maroon;
     text-align: center;
     position: relative;
 }
@@ -216,10 +216,6 @@
     position: absolute;
     top: 5%;
     right: 20%;
-}
-
-.discount-content {
-    border: 1px solid skyblue;
 }
 
 .discount-content h2 {
@@ -240,4 +236,41 @@
     font-size: 22px;
     padding: 8px 15px;
     border-radius: 5px;
+}
+
+/* customer review */
+.customer-review {
+    max-width: 1440px;
+    margin: 50px auto;
+}
+
+.customer-review h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.customer-review-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.card {
+    flex-basis: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #E893CF;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container img {
+    width: 20%;
 }
